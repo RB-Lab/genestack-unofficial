@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module xmlns="http://www.genestack.com/2012/applications"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.genestack.com/2012/applications applications.xsd">
+    <vendor>samplevendor</vendor>
+    <applications>
+        <application>
+            <id>hello-world</id>
+            <main-class>com.samplevendor.app.helloworld.HelloWorldApplication</main-class>
+            <name>Hello World Application</name>
+            <about-file>about.xml</about-file>
+            <resources>
+                <file type="js">bundle.js</file>
+            </resources>
+            <actions>
+                <action>openInBrowser</action>
+            </actions>
+        </application>
+    </applications>
+</module>
